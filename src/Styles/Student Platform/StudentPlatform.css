@@ -1,0 +1,425 @@
+.student-platform-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 31px;
+    margin-left: 130px;
+    margin-top: 57px;
+    margin-bottom: 55px;
+    font-family: 'nf-l';
+}
+
+.student-right-bottom-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 38px;
+}
+
+.general-info {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+/* Student Card */
+.student-info-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 651px;
+    height: 225px;
+    flex-shrink: 0;
+    font-style: normal;
+    line-height: normal;
+    text-align: right;
+    padding-right: 66px;
+    margin-bottom: 25px;
+}
+
+.fadedlogo {
+    width: 294px;
+    height: 231px;
+    flex-shrink: 0; 
+    margin-top: 20px;
+}
+
+.student-info-card .name {
+    color: #5E0A83;
+    font-size: 30px;
+    font-weight: 600;
+    /* font-family: "IBM Plex Sans"; */
+    margin-top: 27.5px;
+    margin-bottom: 6px;
+}
+
+.student-info-card .course-name {
+    color: #F70387;
+    /* font-family: "IBM Plex Sans"; */
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.student-info-card .student-details-title {
+    color: #231F20;
+    /* font-family: "IBM Plex Sans"; */
+    font-size: 14px;
+    font-weight: 600;
+    direction: rtl;
+    margin-top: 0;
+    margin-bottom: 8px;
+    direction: rtl;
+}
+
+.details-list {
+    list-style: none;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.details-item {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.eye {
+    width: 17.137px;
+    height: 11px;
+    cursor: pointer;
+}
+
+.apps {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+/* App Card */
+.app-card {
+    width: 138px;
+    height: 175px;
+    padding: 9px 14px 14px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    line-height: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+.app-icon {
+    width: 51px;
+    height: 51px;
+}
+
+.app-name {
+    color: #2C3899;
+}
+
+.app-des {
+    color: #000;
+}
+
+.app-button {
+    display: flex;
+    padding: 7px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #5E0A83;
+    border: none;
+    cursor: pointer;
+}
+
+.app-button:hover {
+    background: #50086e;
+
+}
+
+/* pdfs Card */
+.pdfs-card {
+    width: 285px;
+    height: 366px;
+    padding-top: 23px;
+    padding-right: 20.38;
+    padding-left: 33px;
+    text-align: right;
+    font-style: normal;
+    line-height: normal;
+    direction: rtl;
+}
+
+.pdf-card-title {
+    color: #5E0A83;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pdfs-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.pdf-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    height: 43.6px;
+}
+
+.pdf-icon {
+    width: 43.624px;
+    height: 43.624px;
+}
+
+.calendar-card {
+    height: 584px;
+    width: 294px;
+    padding-left: 35px;
+    padding-top: 24px;
+    padding-right: 19px;
+}
+
+/* Left Container  */
+.student-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* Schedule Card */
+.schedule-card {
+    width: 466px;
+    height: 516px;
+    padding-top: 62px;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-bottom: 20px;
+    text-align: right;
+    font-style: normal;
+    line-height: normal;
+    
+}
+
+.schedule-title {
+    color: #5E0A83;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 47px;
+}
+
+.lecture-types {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+    height: 18px;
+    margin-bottom: 40px;
+}
+
+.lecture-type {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ABABAB;
+    text-align: right;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+.lecture-type.active {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.lecture-list-container {
+    height: 375px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.lecture-list-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+
+.lecture-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+}
+  
+.lecture-item {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-size: 14px;
+}
+  
+.lecture-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+}
+  
+.lecture-icon {
+    width: 46px;
+    height: 46px;
+}
+  
+.lecture-details {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    line-height: normal;
+    color: #231F20;
+    text-align: right;
+}
+
+.lecture-order {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.lecture-course {
+    font-size: 16px;
+    font-weight: 600;
+}
+  
+.course-name {
+    font-size: 12px;
+    color: #555;
+    margin-left: 8px;
+}
+  
+
+.lecture-button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    width: fit-content;
+}
+  
+.lecture-button:hover {
+    background-color: #d81b60;
+}
+
+.support-card {
+    width: 607px;
+    height: 231px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 23px;
+    flex-direction: row;
+    align-items: center;
+    line-height: normal;
+    font-style: normal;
+    text-align: right;
+}
+
+.support-image {
+    width: 326.3px;
+    height: 231px;
+    transform: rotate(-0.355deg);
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.support-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    width: 260px;
+}
+
+.support-title {
+    color: #5E0A83;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.support-desc {
+    width: 241px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-buttons-container {
+    margin-top: 34px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+
+.support-button {
+    width: 126px;
+    height: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    background: #5E0A83;
+    border: none;
+    cursor: pointer;
+}
+
+.support-button:hover {
+    background: #50086e;
+}
